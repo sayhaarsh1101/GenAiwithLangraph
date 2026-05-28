@@ -1,0 +1,16 @@
+# === Python / Environment Rules ===
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# === Project Configurations ===
+.env
+
+# === Dependency Manager ===
+# We commit pyproject.toml and uv.lock, but ignore temporary uv cache files
+.uv/
+
+# === VS Code Workspace Configurations ===
+.vscode/
+*.code-workspace
